@@ -113,5 +113,4 @@ function nFactorial(num) {
   else
     return num * ( nFactorial(num - 1));
 }
-
-// console.log(nFactorial(4));
+ console.log(nFactorial(5));

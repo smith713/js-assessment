@@ -93,8 +93,8 @@ for (var i = 0; i < friends.length; i++){
 //each instance of 'User' that is created should have a 'email', and 'password' property that is equal to the arguments passed to the constructor
 
 function User(email, password){
-    this.emailAddress = email;
-    this.passwordField = password;
+    this.email = email;
+    this.password = password;
 }
 
 var user1 = new User('latoyyas@gmail.com', 'password');
